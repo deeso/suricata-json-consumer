@@ -1,0 +1,15 @@
+[Unit]
+Description=JSON File consumer for Suricata
+After=suricata.service
+Before=
+
+[Service]
+Type=forking
+User=root
+WorkingDirectory=/opt/suricata-json-consumer/
+ExecStart=/opt/suricata-json-consumer/svc-suricata-json-consumer.sh start
+ExecStop=/opt/suricata-json-consumer/svc-suricata-json-consumer.sh stop
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

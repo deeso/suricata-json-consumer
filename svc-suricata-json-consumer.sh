@@ -5,8 +5,8 @@
 # Required-Stop:     
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: solr
-# Description:       solr
+# Short-Description: suricata-json-consumer
+# Description:       suricata-json-consumer
 ### END INIT INFO
 
 SERVICE_NAME=suricata-json-consumer
