@@ -1,4 +1,13 @@
 #! /bin/sh
+### BEGIN INIT INFO
+# Provides:          suricata-json-consumer
+# Required-Start:    suricata
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: solr
+# Description:       solr
+### END INIT INFO
 
 SERVICE_NAME=suricata-json-consumer
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
