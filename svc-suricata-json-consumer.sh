@@ -11,7 +11,7 @@
 
 SERVICE_NAME=suricata-json-consumer
 PATH=/bin:/usr/bin:/sbin:/usr/sbin
-DAEMON=/opt/suricata-consumer/suricata-json-consumer.sh
+DAEMON=/opt/suricata-json-consumer/suricata-json-consumer.sh
 PIDFILE=/var/run/suricata-json-consumer.pid
 
 test -x $DAEMON || exit 0
