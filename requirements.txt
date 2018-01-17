@@ -1,4 +1,4 @@
 toml
 regex
 https://github.com/deeso/task-blox/tarball/master#egg=task-blox
-https://github.com/deeso/task-blox/tarball/master#egg=json-file-consumer
+https://github.com/deeso/json-file-consumer/tarball/master#egg=json-file-consumer
