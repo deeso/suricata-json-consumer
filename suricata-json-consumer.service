@@ -7,8 +7,7 @@ Before=
 Type=forking
 User=root
 WorkingDirectory=/opt/suricata-json-consumer/
-ExecStart=/opt/suricata-json-consumer/svc-suricata-json-consumer.sh start
-ExecStop=/opt/suricata-json-consumer/svc-suricata-json-consumer.sh stop
+ExecStart=/usr/bin/python3 suricata-json-consumer.py -config suricata-json-consumer.toml
 Restart=on-failure
 
 [Install]
