@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# it might be running?
+/etc/init.d/suricata-json-consumer stop
 # install the required python packages
-pip3 install --force-reinstall -r requirements.txt 
+pip3 install -I --force-reinstall -r requirements.txt 
 
 # create the required directories and copy the supporting files
 sudo mkdir /opt/suricata-json-consumer
