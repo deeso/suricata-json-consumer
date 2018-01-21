@@ -45,8 +45,8 @@
         log-level = 30 # INFO
 
     [json-file-consumer.jsonupdates]
-        task = 'jsonupdate'
-        name = 'enrich-vlan-info'
+        task = 'keyedjsonupdate'
+        name = 'enrich-event-info'
         poll-time = 20
         log-level = 20
         logger-name = 'jsonupdate-loggger'
