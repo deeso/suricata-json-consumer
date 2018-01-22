@@ -64,13 +64,13 @@
                 5 = "wireless"
                 UNKNOWN = "UNKNOWN"
 
-        [json-file-consumer.jsonupdates.json-enrichers.router-nic]
-            name = 'router-nic'
+        [json-file-consumer.jsonupdates.json-enrichers.vlan-nic]
+            name = 'vlan-nic'
             dpath-check = 'vlan'
             dpath-upsert =  'router-nic'
             dpath-extract-key = 'vlan'
             default-value-key = 'UNKNOWN'
-            [json-file-consumer.jsonupdates.json-enrichers.router-nic.value-dict]
+            [json-file-consumer.jsonupdates.json-enrichers.vlan-nic.value-dict]
                 2 = "vtnet1"
                 3 = "vtnet2"
                 4 = "vtnet2"
@@ -91,13 +91,13 @@
                 5 = "opt2"
                 UNKNOWN = "UNKNOWN"
 
-        [json-file-consumer.jsonupdates.json-enrichers.nsm-nic-tap]
-            name = 'nsm-nic-tap'
+        [json-file-consumer.jsonupdates.json-enrichers.router-nic-tap]
+            name = 'router-nic-tap'
             dpath-check = 'in_iface'
             dpath-upsert =  'router-nic-tap'
             dpath-extract-key = 'in_iface'
             default-value-key = 'UNKNOWN'
-            [json-file-consumer.jsonupdates.json-enrichers.nsm-nic-tap.value-dict]
+            [json-file-consumer.jsonupdates.json-enrichers.router-nic-tap.value-dict]
                 ens2 = "vtnet0"
                 ens3 = "vtnet1"
                 ens4 = "vtnet2"
