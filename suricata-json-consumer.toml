@@ -34,6 +34,7 @@
     [json-file-consumer.elksubmitjsons]
         [json-file-consumer.elksubmitjsons.0]
             task = 'elksubmitjson'
+            mtype = 'suricata_json'
             poll-time = 20
             host = '10.18.120.11'
             port = 5002
